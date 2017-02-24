@@ -1,0 +1,20 @@
+1-Database:Ecommerce:
+-- Users:
+--- id 10 int auto key
+--- Email 255 varchar unique
+--- Password 255 varchar
+--- Name 255 varchar
+--- Addres 255 varchar unique
+--- Prices 10 int
+--- Admin 10 int
+-- Categories:
+--- id 10 int auto key
+--- Name 255 varchar
+-- Products:
+--- id 10 int auto key
+--- Name 255 varchar unique
+--- Price 10 int
+--- Category 10 int many to one -> Categories (id)
+--- imageOfProduct 255 varchar
+--- Details 255 varchar
+--- Count 10 int
