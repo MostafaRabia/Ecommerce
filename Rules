@@ -1,0 +1,23 @@
+- Write Must Be:
+-- Vars Must Be 
+	-> If It Two Words Or More -> $smallCapital
+	-> If It One Word -> $small
+-- Functions Must Be
+	-> If It Two Words Or More -> smallCapital()
+	-> If It One Word -> small()
+-- Names Of Tables In Database Muse Be Like His Job And
+	-> If It Two Words Or More -> Name Of Table(_)His Job -> user_id
+-- Classes Name In Html Must Be
+	-> If It Two Words Or More -> small-small
+	-> If It One Word -> small
+	-> Between Words We Will Put -
+-- Id & Name Of Input In Html Must Be
+	-> If One Word -> small
+    	-> If Two Words Or More -> smallCapital
+-- Names Of Files & Controles Must Be
+ 	-> If One Word -> File.blade.php
+    	-> If Two Words Or More -> FileFile.blade.php
+-- Commit In Github Must Be
+	-> Your Task
+-- Comment In Programming Must Be
+	-> Explain What Does It Do
