@@ -18,7 +18,10 @@ class Users extends Migration
             $table->string('user_email')->unique();
             $table->string('user_password');
             $table->string('user_name');
-	        $table->string('user_addres');
+            $table->string('user_addres');
+            $table->string('user_country');
+	        $table->string('user_city');
+            $table->integer('user_phone_number');
 	        $table->integer('user_prices');
             $table->integer('user_admin');
             $table->integer('user_confirmation');
