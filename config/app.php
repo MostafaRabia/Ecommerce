@@ -178,6 +178,8 @@ return [
         App\Providers\RouteServiceProvider::class,
         // For Shopping Cart Package
         Gloudemans\Shoppingcart\ShoppingcartServiceProvider::class
+        // For Socialite Package
+        Laravel\Socialite\SocialiteServiceProvider::class,
 
     ],
 
@@ -229,6 +231,8 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         // For Shopping Cart packages
         'Cart' => Gloudemans\Shoppingcart\Facades\Cart::class,
+        // For Socialite Package
+        'Socialite' => Laravel\Socialite\Facades\Socialite::class,
     ],
 
 ];
