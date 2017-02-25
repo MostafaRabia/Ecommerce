@@ -1,35 +1,16 @@
-1-Database:Ecommerce:
--- Users:
---- id 10 int auto key
---- user_email 255 varchar unique
---- user_password 255 varchar
---- user_name 255 varchar
---- user_addres 255 varchar
---- user_country 255 varchar
---- user_city 255 varchar
---- user_phone_number 10 int
---- user_prices 10 int
---- user_admin 10 int
---- user_confirmation 10 int
---- user_banned 10 int
--- Categories:
---- id 10 int auto key
---- categories_name 255 varchar unique
--- Products:
---- id 10 int auto key
---- product_name 255 varchar unique
---- product_price 10 int
---- product_category 10 int many to one -> Categories (id)
---- product_image 255 varchar
---- product_details 255 varchar
---- product_count 10 int
---- product_status 10 int
-* Done By Mostafa Rabia At 25/2*
-////////////////////////////////////////////////////////////
+**1-Database(Done By Mostafa Rabia At 25/2)
+
 *2- Choose Template (Medoz Pending)
+
 *3- Make Template Ready (Medoz Pending)
+
 4- Put Our Categories (We Will Choose It And I WIll (Mostafa Rabia) Put Them)
+
 *5- Shooping Cart[login(face,google,email..), shooping cart without login, payment with login by paypal, Tilling Him The Payment Successed] (Ashq,Enas Pending)
+
 6- The Shop Will Know What did User Bought And Know The Status Of His Payment And Tilling him
+
 *7- Admin Can Put Products , Can Controle Payments , Can Controle Categories & Its Products , Can Show Users Profiles And Contole The Contact (Ahmed Tarek Pending)
+
 8- User Can Change His Password , Email And Name Can Also Show What Did He Bought And Finaly His Shooping Cart And Edit On It
+
