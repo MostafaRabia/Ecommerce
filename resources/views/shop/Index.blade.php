@@ -1,0 +1,5 @@
+@yield('top')
+@include('shop.Header')
+@yield('center')
+@include('shop.Footer')
+@yield('bottom')
