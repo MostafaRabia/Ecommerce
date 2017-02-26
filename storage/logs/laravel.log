@@ -1274,3 +1274,15 @@ Stack trace:
 #46 /run/media/mostafarabia/j/htdocs/Ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
 #47 /run/media/mostafarabia/j/htdocs/Ecommerce/index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
 #48 {main}  
+[2017-02-26 16:44:19] local.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "route" is not defined.
+
+Did you mean one of these?
+    route:cache
+    route:clear
+    route:list in /run/media/mostafarabia/j/htdocs/Ecommerce/vendor/symfony/console/Application.php:545
+Stack trace:
+#0 /run/media/mostafarabia/j/htdocs/Ecommerce/vendor/symfony/console/Application.php(186): Symfony\Component\Console\Application->find('route')
+#1 /run/media/mostafarabia/j/htdocs/Ecommerce/vendor/symfony/console/Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /run/media/mostafarabia/j/htdocs/Ecommerce/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(123): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /run/media/mostafarabia/j/htdocs/Ecommerce/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  

@@ -1,5 +1,4 @@
-@extends(app('shop_view').'.Index')
-@section('center')
+<?php $__env->startSection('center'); ?>
 <div class="login">
           	<div class="wrap">
 				<div class="col_1_of_login span_1_of_login">
@@ -28,7 +27,7 @@
 							    <p id="login-form-remember">
 							      <label for="modlgn_remember"><a href="#">Forget Your Password ? </a></label>
 							   </p>
-							   <style>@import url("https://fonts.googleapis.com/css?family=Roboto");
+							   <style>@import  url("https://fonts.googleapis.com/css?family=Roboto");
 
 							   	.facebook-btn,
 .gplus-btn {
@@ -113,4 +112,5 @@
 				<div class="clear"></div>
 			</div>
 		</div>
-@stop
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make(app('shop_view').'.Index', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
