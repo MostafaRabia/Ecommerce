@@ -4,6 +4,7 @@
         <title> laravel junkies< Home </title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<<<<<<< HEAD
         <link href="{{app('shop_css')}}/style.css" rel="stylesheet" type="text/css" media="all" />
         <link href="{{app('shop_css')}}/form.css" rel="stylesheet" type="text/css" media="all" />
         <link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
@@ -11,16 +12,34 @@
         <!-- start menu -->
         <link href="{{app('shop_css')}}/megamenu.css" rel="stylesheet" type="text/css" media="all" />
         <script type="text/javascript" src="{{app('shop_js')}}/megamenu.js"></script>
+=======
+        <link href="{{url('public/shop/css/style.css')}}" rel="stylesheet" type="text/css" media="all" />
+        <link href="{{url('public/shop/css/form.css')}}" rel="stylesheet" type="text/css" media="all" />
+        <link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="{{url('public/shop/js/jquery1.min.js')}}"></script>
+        <!-- start menu -->
+        <link href="{{url('public/shop/css/megamenu.css')}}" rel="stylesheet" type="text/css" media="all" />
+        <script type="text/javascript" src="{{url('public/shop/js/megamenu.js')}}"></script>
+>>>>>>> 2428aa20d5ccdf3edf2e09dac3995ee7845f4060
         <script>$(document).ready(function () {
     $(".megamenu").megamenu();
 });</script>
         <!--start slider -->
+<<<<<<< HEAD
         <link rel="stylesheet" href="{{app('shop_css')}}/fwslider.css')}}" media="all">
         <script src="{{app('shop_js')}}/jquery-ui.min.js"></script>
         <script src="{{app('shop_js')}}/css3-mediaqueries.js"></script>
         <script src="{{app('shop_js')}}/fwslider.js"></script>
         <!--end slider -->
         <script src="{{app('shop_js')}}/jquery.easydropdown.js"></script>
+=======
+        <link rel="stylesheet" href="{{url('public/shop/css/fwslider.css')}}" media="all">
+        <script src="{{url('public/shop/js/jquery-ui.min.js')}}"></script>
+        <script src="{{url('public/shop/js/css3-mediaqueries.js')}}"></script>
+        <script src="{{url('public/shop/js/fwslider.js')}}"></script>
+        <!--end slider -->
+        <script src="{{url('public/shop/js/jquery.easydropdown.js')}}"></script>
+>>>>>>> 2428aa20d5ccdf3edf2e09dac3995ee7845f4060
     </head>
     <body>
         <div class="header-top">

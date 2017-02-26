@@ -4,12 +4,20 @@
             <div class="section group example">
                 <div class="col_1_of_2 span_1_of_2">
                     <ul class="f-list">
+<<<<<<< HEAD
                         <li><img src="{{app('shop_image')}}/2.png"><span class="f-text">Free Shipping on orders over $ 100</span><div class="clear"></div></li>
+=======
+                        <li><img src="{{url('public/shop/')}}/images/2.png"><span class="f-text">Free Shipping on orders over $ 100</span><div class="clear"></div></li>
+>>>>>>> 2428aa20d5ccdf3edf2e09dac3995ee7845f4060
                     </ul>
                 </div>
                 <div class="col_1_of_2 span_1_of_2">
                     <ul class="f-list">
+<<<<<<< HEAD
                         <li><img src="{{app('shop_image')}}/3.png"><span class="f-text">Call us! toll free-222-555-6666 </span><div class="clear"></div></li>
+=======
+                        <li><img src="{{url('public/shop/')}}/images/3.png"><span class="f-text">Call us! toll free-222-555-6666 </span><div class="clear"></div></li>
+>>>>>>> 2428aa20d5ccdf3edf2e09dac3995ee7845f4060
                     </ul>
                 </div>
                 <div class="clear"></div>
