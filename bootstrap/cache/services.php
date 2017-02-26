@@ -30,6 +30,7 @@
     26 => 'App\\Providers\\RouteServiceProvider',
     27 => 'Gloudemans\\Shoppingcart\\ShoppingcartServiceProvider',
     28 => 'Laravel\\Socialite\\SocialiteServiceProvider',
+    29 => 'Netshell\\Paypal\\PaypalServiceProvider',
   ),
   'eager' => 
   array (
@@ -48,6 +49,7 @@
     12 => 'App\\Providers\\EventServiceProvider',
     13 => 'App\\Providers\\RouteServiceProvider',
     14 => 'Gloudemans\\Shoppingcart\\ShoppingcartServiceProvider',
+    15 => 'Netshell\\Paypal\\PaypalServiceProvider',
   ),
   'deferred' => 
   array (
