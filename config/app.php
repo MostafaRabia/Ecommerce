@@ -38,7 +38,7 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG', false),
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -180,8 +180,8 @@ return [
         Gloudemans\Shoppingcart\ShoppingcartServiceProvider::class,
         // For Socialite Package
         Laravel\Socialite\SocialiteServiceProvider::class,
-	// For Paypal
-	Netshell\Paypal\PaypalServiceProvider::class,
+    	// For Paypal
+    	Netshell\Paypal\PaypalServiceProvider::class,
 
     ],
 
@@ -235,8 +235,8 @@ return [
         'Cart' => Gloudemans\Shoppingcart\Facades\Cart::class,
         // For Socialite Package
         'Socialite' => Laravel\Socialite\Facades\Socialite::class,
-	// For Paybal
-	'Paypal' => Netshell\Paypal\Facades\Paypal::class,
+    	// For Paybal
+    	'Paypal' => Netshell\Paypal\Facades\Paypal::class,
     ],
 
 ];

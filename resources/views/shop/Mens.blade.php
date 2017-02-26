@@ -1,10 +1,10 @@
-@extends('shop.Index')
+@extends(app('shop_view').'.Index')
 @section('center')
-<div class="mens">    
+div class="mens">    
   <div class="main">
      <div class="wrap">
 		<div class="cont span_2_of_3">
-		  	<h2 class="head">Women's</h2>
+		  	<h2 class="head">Men's</h2>
 		  	<div class="mens-toolbar">
               <div class="sort">
                	<div class="sort-by">
@@ -17,7 +17,7 @@
 		                            <option value="">
 		                    Price                </option>
 		            </select>
-		            <a href=""><img src="{{url('public/shop/')}}/images/arrow2.gif" alt="" class="v-middle"></a>
+		            <a href=""><img src="{{app('shop_image')}}/arrow2.gif" alt="" class="v-middle"></a>
                </div>
     		</div>
         <div class="pager">   
@@ -40,13 +40,13 @@
 	   		<div class="clear"></div>
     	</div>
      	<div class="clear"></div>
-	  </div>
+	</div>
 			<div class="top-box">
 			 <div class="col_1_of_3 span_1_of_3"> 
 			   <a href="single.html">
 				<div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic.jpg" alt=""/>
+						<img src="{{app('shop_image')}}/pic.jpg" alt=""/>
 					</div>
                     <div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                     <div class="price">
@@ -66,7 +66,7 @@
 			   	 <a href="single.html">
 					<div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic1.jpg" alt=""/>
+						<img src="{{app('shop_image')}}/pic1.jpg" alt=""/>
 					</div>
                     <div class="price">
 					   <div class="cart-left">
@@ -85,7 +85,7 @@
 				 <a href="single.html">
 				  <div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic2.jpg" alt=""/>
+						<img src="{{app('shop_image')}}/pic2.jpg" alt=""/>
 					</div>
                     <div class="sale-box1"><span class="on_sale title_shop">Sale</span></div>	
                     <div class="price">
@@ -109,7 +109,7 @@
 			  	 <a href="single.html">
 				 <div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic3.jpg" alt=""/>
+						<img src="{{app('shop_image')}}/pic3.jpg" alt=""/>
 					</div>
                     <div class="price">
 					   <div class="cart-left">
@@ -128,7 +128,7 @@
 					<a href="single.html">
 					<div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic4.jpg" alt=""/>
+						<img src="{{app('shop_image')}}/pic4.jpg" alt=""/>
 					</div>
 					 <div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                     <div class="price">
@@ -148,7 +148,7 @@
 				 <a href="single.html">
 				 <div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic5.jpg" alt=""/>
+						<img src="{{app('shop_image')}}/pic5.jpg" alt=""/>
 					</div>
                     <div class="price">
 					   <div class="cart-left">
@@ -170,7 +170,7 @@
 			  	 <a href="single.html">
 				 <div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic6.jpg" alt=""/>
+						<img src="{{app('shop_image')}}/pic6.jpg" alt=""/>
 					</div>
                      <div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                     <div class="price">
@@ -190,7 +190,7 @@
 				 <a href="single.html">
 					<div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic7.jpg" alt=""/>
+						<img src="{{app('shop_image')}}/pic7.jpg" alt=""/>
 					</div>
 					 <div class="sale-box1"><span class="on_sale title_shop">Sale</span></div>	
                     <div class="price">
@@ -211,7 +211,7 @@
 				  <a href="single.html">
 				 <div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic8.jpg" alt=""/>
+						<img src="{{app('shop_image')}}/pic8.jpg" alt=""/>
 					</div>
                    	 <div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                     <div class="price">
@@ -235,7 +235,7 @@
 			  	 <a href="single.html">
 				 <div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic8.jpg" alt=""/>
+						<img src="{{app('shop_image')}}/pic8.jpg" alt=""/>
 					</div>
                      <div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                     <div class="price">
@@ -255,7 +255,7 @@
 					 <a href="single.html">
 					<div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic4.jpg" alt=""/>
+						<img src="{{app('shop_image')}}/pic4.jpg" alt=""/>
 					</div>
 				    <div class="price">
 					   <div class="cart-left">
@@ -274,7 +274,7 @@
 				 <a href="single.html">
 				 <div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic2.jpg" alt=""/>
+						<img src="{{app('shop_image')}}/pic2.jpg" alt=""/>
 					</div>
                    	 <div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                     <div class="price">
@@ -298,7 +298,7 @@
 			  	 <a href="single.html">
 				 <div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic5.jpg" alt=""/>
+						<img src="{{app('shop_image')}}/pic5.jpg" alt=""/>
 					</div>
                      <div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                     <div class="price">
@@ -318,7 +318,7 @@
 					<a href="single.html">
 					<div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic2.jpg" alt=""/>
+						<img src="{{app('shop_image')}}/pic2.jpg" alt=""/>
 					</div>
 					 <div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                     <div class="price">
@@ -338,7 +338,7 @@
 				 <a href="single.html">
 				 <div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic3.jpg" alt=""/>
+						<img src="{{app('shop_image')}}/pic3.jpg" alt=""/>
 					</div>
                    	 <div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                     <div class="price">
@@ -432,12 +432,14 @@
 								<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>Pilot</label>
 							</div>
 							<div class="col col-4">
+								
 								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Rectangle</label>
 								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Square</label>
 								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Round</label>
 								<label class="checkbox"><input type="checkbox" name="checkbox" ><i></i>Others</label>
 								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Cat Eyes</label>
 								<label class="checkbox"><input type="checkbox" name="checkbox" ><i></i>Wrap Around</label>
+								
 							</div>
 						</div>
 		       </section>
@@ -471,7 +473,7 @@
 		       </section>
 		       <section  class="sky-form">
 					<h4>Colors</h4>
-					    <ul class="color-list">
+						<ul class="color-list">
 							<li><a href="#"> <span class="color1"> </span><p class="red">Red</p></a></li>
 							<li><a href="#"> <span class="color2"> </span><p class="red">Green</p></a></li>
 							<li><a href="#"> <span class="color3"> </span><p class="red">Blue</p></a></li>

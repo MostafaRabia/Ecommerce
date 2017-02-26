@@ -1,10 +1,9 @@
-@extends('shop.Index')
-@section('center')
-<div class="mens">    
+<?php $__env->startSection('center'); ?>
+div class="mens">    
   <div class="main">
      <div class="wrap">
 		<div class="cont span_2_of_3">
-		  	<h2 class="head">Others</h2>
+		  	<h2 class="head">Men's</h2>
 		  	<div class="mens-toolbar">
               <div class="sort">
                	<div class="sort-by">
@@ -17,7 +16,7 @@
 		                            <option value="">
 		                    Price                </option>
 		            </select>
-		            <a href=""><img src="{{url('public/shop/')}}/images/arrow2.gif" alt="" class="v-middle"></a>
+		            <a href=""><img src="<?php echo e(app('shop_image')); ?>/arrow2.gif" alt="" class="v-middle"></a>
                </div>
     		</div>
         <div class="pager">   
@@ -46,7 +45,7 @@
 			   <a href="single.html">
 				<div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic.jpg" alt=""/>
+						<img src="<?php echo e(app('shop_image')); ?>/pic.jpg" alt=""/>
 					</div>
                     <div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                     <div class="price">
@@ -66,7 +65,7 @@
 			   	 <a href="single.html">
 					<div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic1.jpg" alt=""/>
+						<img src="<?php echo e(app('shop_image')); ?>/pic1.jpg" alt=""/>
 					</div>
                     <div class="price">
 					   <div class="cart-left">
@@ -85,7 +84,7 @@
 				 <a href="single.html">
 				  <div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic2.jpg" alt=""/>
+						<img src="<?php echo e(app('shop_image')); ?>/pic2.jpg" alt=""/>
 					</div>
                     <div class="sale-box1"><span class="on_sale title_shop">Sale</span></div>	
                     <div class="price">
@@ -109,7 +108,7 @@
 			  	 <a href="single.html">
 				 <div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic3.jpg" alt=""/>
+						<img src="<?php echo e(app('shop_image')); ?>/pic3.jpg" alt=""/>
 					</div>
                     <div class="price">
 					   <div class="cart-left">
@@ -128,7 +127,7 @@
 					<a href="single.html">
 					<div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic4.jpg" alt=""/>
+						<img src="<?php echo e(app('shop_image')); ?>/pic4.jpg" alt=""/>
 					</div>
 					 <div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                     <div class="price">
@@ -148,7 +147,7 @@
 				 <a href="single.html">
 				 <div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic5.jpg" alt=""/>
+						<img src="<?php echo e(app('shop_image')); ?>/pic5.jpg" alt=""/>
 					</div>
                     <div class="price">
 					   <div class="cart-left">
@@ -170,7 +169,7 @@
 			  	 <a href="single.html">
 				 <div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic6.jpg" alt=""/>
+						<img src="<?php echo e(app('shop_image')); ?>/pic6.jpg" alt=""/>
 					</div>
                      <div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                     <div class="price">
@@ -190,7 +189,7 @@
 				 <a href="single.html">
 					<div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic7.jpg" alt=""/>
+						<img src="<?php echo e(app('shop_image')); ?>/pic7.jpg" alt=""/>
 					</div>
 					 <div class="sale-box1"><span class="on_sale title_shop">Sale</span></div>	
                     <div class="price">
@@ -211,7 +210,7 @@
 				  <a href="single.html">
 				 <div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic8.jpg" alt=""/>
+						<img src="<?php echo e(app('shop_image')); ?>/pic8.jpg" alt=""/>
 					</div>
                    	 <div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                     <div class="price">
@@ -235,7 +234,7 @@
 			  	 <a href="single.html">
 				 <div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic8.jpg" alt=""/>
+						<img src="<?php echo e(app('shop_image')); ?>/pic8.jpg" alt=""/>
 					</div>
                      <div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                     <div class="price">
@@ -255,7 +254,7 @@
 					 <a href="single.html">
 					<div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic4.jpg" alt=""/>
+						<img src="<?php echo e(app('shop_image')); ?>/pic4.jpg" alt=""/>
 					</div>
 				    <div class="price">
 					   <div class="cart-left">
@@ -274,7 +273,7 @@
 				 <a href="single.html">
 				 <div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic2.jpg" alt=""/>
+						<img src="<?php echo e(app('shop_image')); ?>/pic2.jpg" alt=""/>
 					</div>
                    	 <div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                     <div class="price">
@@ -298,7 +297,7 @@
 			  	 <a href="single.html">
 				 <div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic5.jpg" alt=""/>
+						<img src="<?php echo e(app('shop_image')); ?>/pic5.jpg" alt=""/>
 					</div>
                      <div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                     <div class="price">
@@ -318,7 +317,7 @@
 					<a href="single.html">
 					<div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic2.jpg" alt=""/>
+						<img src="<?php echo e(app('shop_image')); ?>/pic2.jpg" alt=""/>
 					</div>
 					 <div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                     <div class="price">
@@ -338,7 +337,7 @@
 				 <a href="single.html">
 				 <div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="{{url('public/shop/')}}/images/pic3.jpg" alt=""/>
+						<img src="<?php echo e(app('shop_image')); ?>/pic3.jpg" alt=""/>
 					</div>
                    	 <div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                     <div class="price">
@@ -355,7 +354,7 @@
                    </a>
 				</div>
 				<div class="clear"></div>
-			</div>			 							 			    		    
+			</div>			 							 			    
 		  </div>
 			<div class="rsidebar span_1_of_left">
 				<h5 class="m_1">Categories</h5>
@@ -400,7 +399,7 @@
 							</div>
 						</div>
 		        </section>
-		        <section  class="sky-form">
+		       <section  class="sky-form">
 					<h4>Brand Name</h4>
 						<div class="row row1 scroll-pane">
 							<div class="col col-4">
@@ -432,12 +431,14 @@
 								<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>Pilot</label>
 							</div>
 							<div class="col col-4">
+								
 								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Rectangle</label>
 								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Square</label>
 								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Round</label>
 								<label class="checkbox"><input type="checkbox" name="checkbox" ><i></i>Others</label>
 								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Cat Eyes</label>
 								<label class="checkbox"><input type="checkbox" name="checkbox" ><i></i>Wrap Around</label>
+								
 							</div>
 						</div>
 		       </section>
@@ -482,10 +483,10 @@
 					   </ul>
 		       </section>
 		      </div>
-			  <div class="clear"></div>
+			<div class="clear"></div>
 			</div>
 		   </div>
 		</div>
-		<script src="{{url('public/shop/')}}/js/jquery.easydropdown.js"></script>
-
-@stop
+		<script src="<?php echo e(url('public/shop/')); ?>/js/jquery.easydropdown.js"></script>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('shop.Index', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

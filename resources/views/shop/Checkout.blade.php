@@ -1,4 +1,4 @@
-@extends('shop.Index')
+@extends(app('shop_view').'.Index')
 @section('center')
 <div class="register_account">
            <div class="wrap">

@@ -1,26 +1,28 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title> laravel junkies< Home </title>
+        <title><?php echo e(app('title')); ?></title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <link href="<?php echo e(app('shop_css')); ?>/style.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="<?php echo e(app('shop_css')); ?>/form.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="<?php echo e(url('public/shop/css/style.css')); ?>" rel="stylesheet" type="text/css" media="all" />
+        <link href="<?php echo e(url('public/shop/css/form.css')); ?>" rel="stylesheet" type="text/css" media="all" />
         <link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
-        <script type="text/javascript" src="<?php echo e(app('shop_js')); ?>/jquery1.min.js"></script>
+        <script type="text/javascript" src="<?php echo e(url('public/shop/js/jquery1.min.js')); ?>"></script>
         <!-- start menu -->
-        <link href="<?php echo e(app('shop_css')); ?>/megamenu.css" rel="stylesheet" type="text/css" media="all" />
-        <script type="text/javascript" src="<?php echo e(app('shop_js')); ?>/megamenu.js"></script>
-        <script>$(document).ready(function () {
-    $(".megamenu").megamenu();
-});</script>
+        <link href="<?php echo e(url('public/shop/css/megamenu.css')); ?>" rel="stylesheet" type="text/css" media="all" />
+        <script type="text/javascript" src="<?php echo e(url('public/shop/js/megamenu.js')); ?>"></script>
+        <script>
+            $(document).ready(function () {
+                $(".megamenu").megamenu();
+            });
+        </script>
         <!--start slider -->
-        <link rel="stylesheet" href="<?php echo e(app('shop_css')); ?>/fwslider.css')}}" media="all">
-        <script src="<?php echo e(app('shop_js')); ?>/jquery-ui.min.js"></script>
-        <script src="<?php echo e(app('shop_js')); ?>/css3-mediaqueries.js"></script>
-        <script src="<?php echo e(app('shop_js')); ?>/fwslider.js"></script>
+        <link rel="stylesheet" href="<?php echo e(url('public/shop/css/fwslider.css')); ?>" media="all">
+        <script src="<?php echo e(url('public/shop/js/jquery-ui.min.js')); ?>"></script>
+        <script src="<?php echo e(url('public/shop/js/css3-mediaqueries.js')); ?>"></script>
+        <script src="<?php echo e(url('public/shop/js/fwslider.js')); ?>"></script>
         <!--end slider -->
-        <script src="<?php echo e(app('shop_js')); ?>/jquery.easydropdown.js"></script>
+        <script src="<?php echo e(url('public/shop/js/jquery.easydropdown.js')); ?>"></script>
     </head>
     <body>
         <div class="header-top">

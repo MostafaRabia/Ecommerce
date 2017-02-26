@@ -1,5 +1,5 @@
 @yield('top')
-@include('shop.Header')
+@include(app('shop_view').'.Header')
 @yield('center')
-@include('shop.Footer')
+@include(app('shop_view').'.Footer')
 @yield('bottom')

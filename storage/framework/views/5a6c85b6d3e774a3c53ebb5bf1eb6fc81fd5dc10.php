@@ -1,11 +1,10 @@
-@extends('shop.Index')
-@section('center')
+<?php $__env->startSection('center'); ?>
 <!-- start slider -->
 <div id="fwslider">
     <div class="slider_container">
         <div class="slide"> 
             <!-- Slide image -->
-            <img src="{{url('public/shop/')}}/images/banner.jpg" alt=""/>
+            <img src="<?php echo e(url('public/shop/')); ?>/images/banner.jpg" alt=""/>
             <!-- /Slide image -->
             <!-- Texts container -->
             <div class="slide_content">
@@ -23,7 +22,7 @@
         </div>
         <!-- /Duplicate to create more slides -->
         <div class="slide">
-            <img src="{{url('public/shop/')}}/images/banner1.jpg" alt=""/>
+            <img src="<?php echo e(url('public/shop/')); ?>/images/banner1.jpg" alt=""/>
             <div class="slide_content">
                 <div class="slide_content_wrap">
                     <h4 class="title">consectetuer adipiscing </h4>
@@ -48,7 +47,7 @@
                         <a href="single.html">
                             <div class="inner_content clearfix">
                                 <div class="product_image">
-                                    <img src="{{url('public/shop/')}}/images/pic.jpg" alt=""/>
+                                    <img src="<?php echo e(url('public/shop/')); ?>/images/pic.jpg" alt=""/>
                                 </div>
                                 <div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                                 <div class="price">
@@ -68,7 +67,7 @@
                         <a href="single.html">
                             <div class="inner_content clearfix">
                                 <div class="product_image">
-                                    <img src="{{url('public/shop/')}}/images/pic1.jpg" alt=""/>
+                                    <img src="<?php echo e(url('public/shop/')); ?>/images/pic1.jpg" alt=""/>
                                 </div>
                                 <div class="price">
                                     <div class="cart-left">
@@ -87,7 +86,7 @@
                         <a href="single.html">
                             <div class="inner_content clearfix">
                                 <div class="product_image">
-                                    <img src="{{url('public/shop/')}}/images/pic2.jpg" alt=""/>
+                                    <img src="<?php echo e(url('public/shop/')); ?>/images/pic2.jpg" alt=""/>
                                 </div>
                                 <div class="sale-box1"><span class="on_sale title_shop">Sale</span></div>	
                                 <div class="price">
@@ -111,7 +110,7 @@
                         <a href="single.html">
                             <div class="inner_content clearfix">
                                 <div class="product_image">
-                                    <img src="{{url('public/shop/')}}/images/pic3.jpg" alt=""/>
+                                    <img src="<?php echo e(url('public/shop/')); ?>/images/pic3.jpg" alt=""/>
                                 </div>
                                 <div class="price">
                                     <div class="cart-left">
@@ -130,7 +129,7 @@
                         <a href="single.html">
                             <div class="inner_content clearfix">
                                 <div class="product_image">
-                                    <img src="{{url('public/shop/')}}/images/pic4.jpg" alt=""/>
+                                    <img src="<?php echo e(url('public/shop/')); ?>/images/pic4.jpg" alt=""/>
                                 </div>
                                 <div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                                 <div class="price">
@@ -150,7 +149,7 @@
                         <a href="single.html">
                             <div class="inner_content clearfix">
                                 <div class="product_image">
-                                    <img src="{{url('public/shop/')}}/images/pic5.jpg" alt=""/>
+                                    <img src="<?php echo e(url('public/shop/')); ?>/images/pic5.jpg" alt=""/>
                                 </div>
                                 <div class="price">
                                     <div class="cart-left">
@@ -172,7 +171,7 @@
                         <a href="single.html">
                             <div class="inner_content clearfix">
                                 <div class="product_image">
-                                    <img src="{{url('public/shop/')}}/images/pic6.jpg" alt=""/>
+                                    <img src="<?php echo e(url('public/shop/')); ?>/images/pic6.jpg" alt=""/>
                                 </div>
                                 <div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                                 <div class="price">
@@ -192,7 +191,7 @@
                         <a href="single.html">
                             <div class="inner_content clearfix">
                                 <div class="product_image">
-                                    <img src="{{url('public/shop/')}}/images/pic7.jpg" alt=""/>
+                                    <img src="<?php echo e(url('public/shop/')); ?>/images/pic7.jpg" alt=""/>
                                 </div>
                                 <div class="sale-box1"><span class="on_sale title_shop">Sale</span></div>	
                                 <div class="price">
@@ -213,7 +212,7 @@
                         <a href="single.html">
                             <div class="inner_content clearfix">
                                 <div class="product_image">
-                                    <img src="{{url('public/shop/')}}/images/pic8.jpg" alt=""/>
+                                    <img src="<?php echo e(url('public/shop/')); ?>/images/pic8.jpg" alt=""/>
                                 </div>
                                 <div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                                 <div class="price">
@@ -237,7 +236,7 @@
                         <a href="single.html">
                             <div class="inner_content clearfix">
                                 <div class="product_image">
-                                    <img src="{{url('public/shop/')}}/images/pic8.jpg" alt=""/>
+                                    <img src="<?php echo e(url('public/shop/')); ?>/images/pic8.jpg" alt=""/>
                                 </div>
                                 <div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                                 <div class="price">
@@ -257,7 +256,7 @@
                         <a href="single.html">
                             <div class="inner_content clearfix">
                                 <div class="product_image">
-                                    <img src="{{url('public/shop/')}}/images/pic4.jpg" alt=""/>
+                                    <img src="<?php echo e(url('public/shop/')); ?>/images/pic4.jpg" alt=""/>
                                 </div>
                                 <div class="price">
                                     <div class="cart-left">
@@ -276,7 +275,7 @@
                         <a href="single.html">
                             <div class="inner_content clearfix">
                                 <div class="product_image">
-                                    <img src="{{url('public/shop/')}}/images/pic2.jpg" alt=""/>
+                                    <img src="<?php echo e(url('public/shop/')); ?>/images/pic2.jpg" alt=""/>
                                 </div>
                                 <div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                                 <div class="price">
@@ -300,7 +299,7 @@
                         <a href="single.html">
                             <div class="inner_content clearfix">
                                 <div class="product_image">
-                                    <img src="{{url('public/shop/')}}/images/pic5.jpg" alt=""/>
+                                    <img src="<?php echo e(url('public/shop/')); ?>/images/pic5.jpg" alt=""/>
                                 </div>
                                 <div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                                 <div class="price">
@@ -320,7 +319,7 @@
                         <a href="single.html">
                             <div class="inner_content clearfix">
                                 <div class="product_image">
-                                    <img src="{{url('public/shop/')}}/images/pic2.jpg" alt=""/>
+                                    <img src="<?php echo e(url('public/shop/')); ?>/images/pic2.jpg" alt=""/>
                                 </div>
                                 <div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                                 <div class="price">
@@ -340,7 +339,7 @@
                         <a href="single.html">
                             <div class="inner_content clearfix">
                                 <div class="product_image">
-                                    <img src="{{url('public/shop/')}}/images/pic3.jpg" alt=""/>
+                                    <img src="<?php echo e(url('public/shop/')); ?>/images/pic3.jpg" alt=""/>
                                 </div>
                                 <div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                                 <div class="price">
@@ -372,9 +371,9 @@
                     </script>
                     <div class="slider-wrapper theme-default">
                         <div id="slider" class="nivoSlider">
-                            <img src="{{url('public/shop/')}}/images/t-img1.jpg"  alt="" />
-                            <img src="{{url('public/shop/')}}/images/t-img2.jpg"  alt="" />
-                            <img src="{{url('public/shop/')}}/images/t-img3.jpg"  alt="" />
+                            <img src="<?php echo e(url('public/shop/')); ?>/images/t-img1.jpg"  alt="" />
+                            <img src="<?php echo e(url('public/shop/')); ?>/images/t-img2.jpg"  alt="" />
+                            <img src="<?php echo e(url('public/shop/')); ?>/images/t-img3.jpg"  alt="" />
                         </div>
                     </div>
                     <div class="btn"><a href="single.html">Check it Out</a></div>
@@ -395,4 +394,5 @@
         </div>
     </div>
 </div>
-@stop
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('shop.Index', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

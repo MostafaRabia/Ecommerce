@@ -1,4 +1,4 @@
-@extends('shop.Index')
+@extends(app('shop_view').'.Index')
 @section('center')
 <div class="login">
           <div class="wrap">
@@ -33,7 +33,7 @@
 				        <h5 class="m_6">Meet Our Team</h5>	
 				     <div class="section group">
 						<div class="col_1_of_about-box span_1_of_about-box">
-						   <a class="popup-with-zoom-anim" href="#small-dialog3">  <span class="rollover"></span><img src="{{url('public/shop/')}}/images/a-img.jpg" title="continue" alt=""/></a>
+						   <a class="popup-with-zoom-anim" href="#small-dialog3">  <span class="rollover"></span><img src="{{app('shop_image')}}/a-img.jpg" title="continue" alt=""/></a>
 		                     <div id="small-dialog3" class="mfp-hide">
 							   <div class="pop_up2">
 							   	 <h2>Lorem ipsum </h2>
@@ -45,12 +45,12 @@
 							 <p>Lorem ipsum dolor consectetur adipisicing elit, sed do eiusmod.</p>
 					     </div>
 						<div class="col_1_of_about-box span_1_of_about-box">
-						   <a class="popup-with-zoom-anim" href="#small-dialog3">  <span class="rollover"></span><img src="{{url('public/shop/')}}/images/a-img1.jpg" title="continue" alt=""/></a>
+						   <a class="popup-with-zoom-anim" href="#small-dialog3">  <span class="rollover"></span><img src="{{app('shop_image')}}/a-img1.jpg" title="continue" alt=""/></a>
 		                    <h4 class="m_7"><a href="#">consectetuer adipiscing</a></h4>
 							 <p>Lorem ipsum dolor consectetur adipisicing elit, sed do eiusmod.</p>
 					     </div>
 						<div class="col_1_of_about-box span_1_of_about-box">
-						   <a class="popup-with-zoom-anim" href="#small-dialog3">  <span class="rollover"></span><img src="{{url('public/shop/')}}/images/a-img2.jpg" title="continue" alt=""/></a>
+						   <a class="popup-with-zoom-anim" href="#small-dialog3">  <span class="rollover"></span><img src="{{app('shop_image')}}/a-img2.jpg" title="continue" alt=""/></a>
 		                    <h4 class="m_7"><a href="#">consectetuer adipiscing</a></h4>
 							 <p>Lorem ipsum dolor consectetur adipisicing elit, sed do eiusmod.</p>
 					     </div>

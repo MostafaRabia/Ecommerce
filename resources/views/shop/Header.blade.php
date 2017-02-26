@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title> laravel junkies< Home </title>
+        <title>{{app('title')}}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <link href="{{url('public/shop/css/style.css')}}" rel="stylesheet" type="text/css" media="all" />
@@ -11,9 +11,11 @@
         <!-- start menu -->
         <link href="{{url('public/shop/css/megamenu.css')}}" rel="stylesheet" type="text/css" media="all" />
         <script type="text/javascript" src="{{url('public/shop/js/megamenu.js')}}"></script>
-        <script>$(document).ready(function () {
-    $(".megamenu").megamenu();
-});</script>
+        <script>
+            $(document).ready(function () {
+                $(".megamenu").megamenu();
+            });
+        </script>
         <!--start slider -->
         <link rel="stylesheet" href="{{url('public/shop/css/fwslider.css')}}" media="all">
         <script src="{{url('public/shop/js/jquery-ui.min.js')}}"></script>
