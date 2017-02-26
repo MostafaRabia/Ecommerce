@@ -9,21 +9,21 @@
 						<ul id="etalage">
 							<li>
 								<a href="optionallink.html">
-									<img class="etalage_thumb_image" src="{{url('public/shop/')}}/images/s-img.jpg" class="img-responsive" />
-									<img class="etalage_source_image" src="{{url('public/shop/')}}/images/s1.jpg" class="img-responsive" title="" />
+									<img class="etalage_thumb_image" src="{{app('shop_image')}}/s-img.jpg" class="img-responsive" />
+									<img class="etalage_source_image" src="{{app('shop_image')}}/s1.jpg" class="img-responsive" title="" />
 								</a>
 							</li>
 							<li>
-								<img class="etalage_thumb_image" src="{{url('public/shop/')}}/images/s-img1.jpg" class="img-responsive" />
-								<img class="etalage_source_image" src="{{url('public/shop/')}}/images/s2.jpg" class="img-responsive" title="" />
+								<img class="etalage_thumb_image" src="{{app('shop_image')}}/s-img1.jpg" class="img-responsive" />
+								<img class="etalage_source_image" src="{{app('shop_image')}}/s2.jpg" class="img-responsive" title="" />
 							</li>
 							<li>
-								<img class="etalage_thumb_image" src="{{url('public/shop/')}}/images/s-img2.jpg" class="img-responsive"  />
-								<img class="etalage_source_image" src="{{url('public/shop/')}}/images/s3.jpg" class="img-responsive"  />
+								<img class="etalage_thumb_image" src="{{app('shop_image')}}/s-img2.jpg" class="img-responsive"  />
+								<img class="etalage_source_image" src="{{app('shop_image')}}/s3.jpg" class="img-responsive"  />
 							</li>
 						    <li>
-								<img class="etalage_thumb_image" src="{{url('public/shop/')}}/images/s4.jpg" class="img-responsive"  />
-								<img class="etalage_source_image" src="{{url('public/shop/')}}/images/s-img3.jpg" class="img-responsive"  />
+								<img class="etalage_thumb_image" src="{{app('shop_image')}}/s4.jpg" class="img-responsive"  />
+								<img class="etalage_source_image" src="{{app('shop_image')}}/s-img3.jpg" class="img-responsive"  />
 							</li>
 						</ul>
 						 <div class="clearfix"></div>
@@ -43,11 +43,11 @@
 	    <div class="clients">
 	    <h3 class="m_3">10 Other Products in the same category</h3>
 		 <ul id="flexiselDemo3">
-			<li><img src="{{url('public/shop/')}}/images/s5.jpg" /><a href="#">Category</a><p>Rs 600</p></li>
-			<li><img src="{{url('public/shop/')}}/images/s6.jpg" /><a href="#">Category</a><p>Rs 850</p></li>
-			<li><img src="{{url('public/shop/')}}/images/s7.jpg" /><a href="#">Category</a><p>Rs 900</p></li>
-			<li><img src="{{url('public/shop/')}}/images/s8.jpg" /><a href="#">Category</a><p>Rs 550</p></li>
-			<li><img src="{{url('public/shop/')}}/images/s9.jpg" /><a href="#">Category</a><p>Rs 750</p></li>
+			<li><img src="{{app('shop_image')}}/s5.jpg" /><a href="#">Category</a><p>Rs 600</p></li>
+			<li><img src="{{app('shop_image')}}/s6.jpg" /><a href="#">Category</a><p>Rs 850</p></li>
+			<li><img src="{{app('shop_image')}}/s7.jpg" /><a href="#">Category</a><p>Rs 900</p></li>
+			<li><img src="{{app('shop_image')}}/s8.jpg" /><a href="#">Category</a><p>Rs 550</p></li>
+			<li><img src="{{app('shop_image')}}/s9.jpg" /><a href="#">Category</a><p>Rs 750</p></li>
 		 </ul>
 	<script type="text/javascript">
 		$(window).load(function() {
