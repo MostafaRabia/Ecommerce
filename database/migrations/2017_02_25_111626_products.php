@@ -17,7 +17,8 @@ class Products extends Migration
             $table->increments('id');
             $table->string('product_name')->unique();
             $table->integer('product_price');
-	        $table->foreign('product_category')->references('id')->on('categories')->onDelete('cascade');
+	    $table->integer('product_category')->unsigned();
+	    $table->foreign('product_category')->references('id')->on('categories')->onDelete('cascade');
             $table->string('product_image')->unique();
             $table->string('product_details');
             $table->integer('product_count');
