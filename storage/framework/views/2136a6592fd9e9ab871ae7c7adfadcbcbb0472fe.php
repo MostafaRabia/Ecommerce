@@ -27,73 +27,8 @@
 							    <p id="login-form-remember">
 							      <label for="modlgn_remember"><a href="#">Forget Your Password ? </a></label>
 							   </p>
-							   <style>@import  url("https://fonts.googleapis.com/css?family=Roboto");
-
-							   	.facebook-btn,
-.gplus-btn {
-  display: block;
-  float: right;
-  width: 51%;
-  height: 35px;
-  margin-top: 20px;
-  padding: 0 7px;
-  background-color: transparent;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  font: 14px roboto;
-  text-align: left;
-  transition: background-color 1s ease, color 0.7s ease, box-shadow 1s ease;
-}
-
-.facebook-btn {
-  background-color: #3B5998;
-  color: #fff;
-}
-
-.gplus-btn {
-  background-color: #d34836;
-  color: #fff;
-}
-
-.facebook-btn:hover,
-.gplus-btn:hover {
-  box-shadow: 0 0 1px #999;
-}
-
-.facebook-btn:hover {
-  background-color: #fff;
-  color: #3B5998;
-}
-
-.gplus-btn:hover {
-  background-color: #fff;
-  color: #d34836;
-}
-
-.facebook-btn i,
-.gplus-btn i {
-  display: inline-block;
-  width: 50px;
-  text-align: center;
-  border-right: 1px solid #fff;
-  margin-right: 10px;
-  transition: border-right-color 0.7s ease;
-}
-
-.facebook-btn:hover i {
-  border-right: 1px solid #3B5998;
-}
-
-.gplus-btn:hover i {
-  border-right: 1px solid #d34836;
-}
-
-.facebook-btn span,
-.gplus-btn span {
-  text-transform: capitalize;
-}
-							   </style>
+							   <link href="<?php echo e(app('shop_css')); ?>/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
+							   <link href="<?php echo e(app('shop_css')); ?>/fb&gp_btns.css" rel="stylesheet" type="text/css" media="all" />
 							    <input type="submit" name="Submit" class="button" value="Login"><div class="clear"></div>
 							    <button class='facebook-btn facebook-login'>
 						            <i aria-hidden='true' class='fa fa-facebook'></i>
